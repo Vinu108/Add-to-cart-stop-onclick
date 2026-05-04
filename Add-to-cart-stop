@@ -1,0 +1,10 @@
+document.addEventListener('click', function(e) {
+    const btn = e.target.closest('button[data-rid="747db0a5-de08-4d53-828c-d6eb2301d331"]');
+    if (!btn) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+
+    window.location.href = "https://secureorder.norrelabs.com/funnelish?store=8eq0j0-9a&funnelishId=165";
+}, true);
